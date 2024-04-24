@@ -34,6 +34,5 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <documents>Document.Документ12345</documents>
   <documents>Document.Документ4567775</documents>
 </mdclass:Configuration>
