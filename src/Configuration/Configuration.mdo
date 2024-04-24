@@ -34,5 +34,6 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.Сотрудники</catalogs>
   <documents>Document.Документ</documents>
 </mdclass:Configuration>
