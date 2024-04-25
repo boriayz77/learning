@@ -39,5 +39,9 @@
   <constants>Constant.АдресОрганизации</constants>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Договоры</catalogs>
   <documents>Document.Документ</documents>
+  <enums>Enum.Пол</enums>
+  <informationRegisters>InformationRegister.СведенияОСотрудниках</informationRegisters>
 </mdclass:Configuration>
