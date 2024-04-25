@@ -38,5 +38,6 @@
   <constants>Constant.НазваниеОрганизации</constants>
   <constants>Constant.АдресОрганизации</constants>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
   <documents>Document.Документ</documents>
 </mdclass:Configuration>
