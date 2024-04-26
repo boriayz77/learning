@@ -41,7 +41,10 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Договоры</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.Документ</documents>
+  <documents>Document.СчетНаОплату</documents>
   <enums>Enum.Пол</enums>
   <informationRegisters>InformationRegister.СведенияОСотрудниках</informationRegisters>
 </mdclass:Configuration>

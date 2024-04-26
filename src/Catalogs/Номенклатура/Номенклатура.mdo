@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a81fda3-797b-4325-a5f2-0e583c011e68">
+  <producedTypes>
+    <objectType typeId="ccbb0ff3-c2e6-4cc2-a288-8d4328a37965" valueTypeId="bfd55f6d-8f11-4ee0-aaf3-c1387f987784"/>
+    <refType typeId="ab0ade85-2eb3-4080-a820-1f238587e0d9" valueTypeId="3325ca71-d4d1-41a3-8848-c85c33e59fdc"/>
+    <selectionType typeId="93bd9ee2-ab04-4269-9cd2-f9242ba1aef7" valueTypeId="0cb2b567-760d-472b-8f0a-f1cf0c377c78"/>
+    <listType typeId="da7a2f16-1655-40bd-92af-b42b87283207" valueTypeId="4f6a4f7b-25a4-4353-b8bf-e9b26e356711"/>
+    <managerType typeId="72ac333f-16b6-47b3-bbea-154cb1b40515" valueTypeId="599758d8-c018-4fca-816b-3fbb372f4c83"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="1c3648d1-5781-41de-8c45-efd746fdc3d7">
+    <name>ЕдиницыИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единицы измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="72d4dae3-1a91-42bb-af54-b49f44a0dd4e">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
