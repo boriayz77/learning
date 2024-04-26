@@ -113,7 +113,7 @@
     </dataPath>
     <handlers>
       <event>OnChange</event>
-      <name>ОбновитьФИО</name>
+      <name>ФИОПриИзменении</name>
     </handlers>
     <extendedTooltip>
       <name>ФИОРасширеннаяПодсказка</name>
@@ -167,7 +167,7 @@
     </dataPath>
     <handlers>
       <event>OnChange</event>
-      <name>ОбновитьФИО</name>
+      <name>ИмяПриИзменении</name>
     </handlers>
     <extendedTooltip>
       <name>ИмяРасширеннаяПодсказка</name>
@@ -221,7 +221,7 @@
     </dataPath>
     <handlers>
       <event>OnChange</event>
-      <name>ОбновитьФИО</name>
+      <name>ОтчествоПриИзменении</name>
     </handlers>
     <extendedTooltip>
       <name>ОтчествоРасширеннаяПодсказка</name>
