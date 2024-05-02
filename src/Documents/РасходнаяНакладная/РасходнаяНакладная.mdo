@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c06b019d-b62a-455a-a0d5-9845ec086ac8">
+  <producedTypes>
+    <objectType typeId="867599e5-11ba-4b7c-9eee-9c4fbcbca83d" valueTypeId="8f999ea2-afb7-4f2a-9f07-c4e303b5b71a"/>
+    <refType typeId="175be28e-e8fb-4c1b-b32c-9444894fc9e9" valueTypeId="2461adca-d8fc-4823-9975-fca90969f544"/>
+    <selectionType typeId="5b7508ae-76b3-46ce-a094-1f9f41d843cc" valueTypeId="8a2e976a-eb84-46e4-b9f4-693ca6ee1a5c"/>
+    <listType typeId="32ad7ccc-9357-424d-8daf-eb0936da8493" valueTypeId="e39a5b7a-0bca-4306-ba30-219e5a32f038"/>
+    <managerType typeId="b210d01d-e6e5-4303-bca6-f4f727b499ae" valueTypeId="7b5b2ee0-f51a-4374-8cd1-80d1c9ae5711"/>
+  </producedTypes>
+  <name>РасходнаяНакладная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расходная накладная</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РасходнаяНакладная.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="321df675-c81f-4b23-bf2b-b4c5137c523b">
+    <producedTypes>
+      <objectType typeId="417c95a2-881b-4480-bf2c-6e7df30e16d6" valueTypeId="c0d9ece6-e3c4-4cb5-ad36-379a6e90bc79"/>
+      <rowType typeId="b475da3f-3640-44dd-8d2c-d664f3163655" valueTypeId="ac9c6619-6b96-4972-82ea-75d678280cf5"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="67b5bbff-d2e8-4660-82a1-d6f8b66ff75a">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c9069c84-d5b8-4864-85dd-271b4eefa6bc">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

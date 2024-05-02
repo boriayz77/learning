@@ -45,6 +45,10 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.Документ</documents>
   <documents>Document.СчетНаОплату</documents>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.РасходнаяНакладная</documents>
   <enums>Enum.Пол</enums>
+  <reports>Report.ОстаткиТоваров</reports>
   <informationRegisters>InformationRegister.СведенияОСотрудниках</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
 </mdclass:Configuration>
