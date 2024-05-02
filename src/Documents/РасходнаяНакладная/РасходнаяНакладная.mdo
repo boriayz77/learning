@@ -26,6 +26,15 @@
   <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="3b09a3dc-730c-4d53-ab7a-6f2a7956537d">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="321df675-c81f-4b23-bf2b-b4c5137c523b">
     <producedTypes>
       <objectType typeId="417c95a2-881b-4480-bf2c-6e7df30e16d6" valueTypeId="c0d9ece6-e3c4-4cb5-ad36-379a6e90bc79"/>
