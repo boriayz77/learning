@@ -43,6 +43,7 @@
   <catalogs>Catalog.Договоры</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
   <documents>Document.Документ</documents>
   <documents>Document.СчетНаОплату</documents>
   <documents>Document.ПриходнаяНакладная</documents>
@@ -51,4 +52,5 @@
   <reports>Report.ОстаткиТоваров</reports>
   <informationRegisters>InformationRegister.СведенияОСотрудниках</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СтоимостьТоваров</accumulationRegisters>
 </mdclass:Configuration>
