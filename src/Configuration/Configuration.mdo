@@ -53,4 +53,5 @@
   <informationRegisters>InformationRegister.СведенияОСотрудниках</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СтоимостьТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.РезервыТоваров</accumulationRegisters>
 </mdclass:Configuration>
