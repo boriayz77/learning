@@ -44,6 +44,7 @@
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.ЗадачиКТО</catalogs>
   <documents>Document.Документ</documents>
   <documents>Document.СчетНаОплату</documents>
   <documents>Document.ПриходнаяНакладная</documents>
