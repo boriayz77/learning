@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="331afd61-12c7-4d2d-810d-a8380d451414">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="9883de33-ccf3-4379-a2b3-0db7f61bf15c"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="f745962d-ba8e-4e0b-a223-70a9d1532195"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a27525cb-a2bd-4193-8c27-d20bc5401f0d"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b3a45706-efd2-45bb-84cb-fca0d86f55bc"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="58f36c37-9f15-4184-a130-8b296a2c3e0e"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e8f41078-3da7-4269-8f78-662fa59cecc8"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="77cb8eda-f4db-4d78-a93f-ddf28dca73d9"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.24</compatibilityMode>
+  <languages uuid="48fe9de4-93c5-4986-844c-8ef30eee9332">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Пользователь</roles>
+  <commonModules>CommonModule.ВызовСервера</commonModules>
+  <constants>Constant.НазваниеОрганизации</constants>
+  <constants>Constant.АдресОрганизации</constants>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Договоры</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.ЗадачиКТО</catalogs>
+  <documents>Document.РегистрацияЗадачКТО</documents>
+  <documents>Document.СчетНаОплату</documents>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.РасходнаяНакладная</documents>
+  <documents>Document.Документ1</documents>
+  <enums>Enum.Пол</enums>
+  <reports>Report.ОстаткиТоваров</reports>
+  <informationRegisters>InformationRegister.СведенияОСотрудниках</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СтоимостьТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.РезервыТоваров</accumulationRegisters>
+</mdclass:Configuration>

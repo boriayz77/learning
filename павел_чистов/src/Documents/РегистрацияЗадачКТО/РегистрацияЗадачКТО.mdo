@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d170698-cfb7-4077-b4d4-1f4bbcb87c84">
+  <producedTypes>
+    <objectType typeId="7cdc6db1-d82d-4ec4-b54c-d768ef7e8869" valueTypeId="f1124f55-4f21-457f-8284-8b01451b0726"/>
+    <refType typeId="4fdf2cea-cbbf-4186-b2b9-f66599fef4a1" valueTypeId="a2f3b470-7c6c-4aa6-b634-43ad880872b7"/>
+    <selectionType typeId="658fd2a2-1018-4bb9-b919-4855c2b30060" valueTypeId="e2828a54-a6f4-4c59-8ffb-0467ae523f9c"/>
+    <listType typeId="ec93fe65-6820-4274-9cc5-69018883f7dd" valueTypeId="465485b6-df8b-4b28-88e8-98d9aa735799"/>
+    <managerType typeId="1281c429-47ff-4005-a1c4-0a54326c15b5" valueTypeId="2d67ca2e-f7a4-4800-888e-6110b6377d65"/>
+  </producedTypes>
+  <name>РегистрацияЗадачКТО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация задач КТО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РегистрацияЗадачКТО.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="3132519c-bd5f-476f-9e81-9a8bc2a4fdc1">
+    <producedTypes>
+      <objectType typeId="5c16dabe-d786-4889-b9e8-8bf23a47a072" valueTypeId="671da722-6ba1-4982-93b7-d0ec705272cd"/>
+      <rowType typeId="5926ea51-0728-4703-8ed5-cb5393f45b39" valueTypeId="1007f09a-7e7d-4340-87fe-ebf52dea1322"/>
+    </producedTypes>
+    <name>УчетРабочегоВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учет рабочего времени</value>
+    </synonym>
+    <attributes uuid="ec5bf1a5-421d-4e22-b58f-1146f0ef36fb">
+      <name>Задача</name>
+      <synonym>
+        <key>ru</key>
+        <value>Задача</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ЗадачиКТО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="69a1d025-cd03-4a1b-8a4d-c7c80a784648">
+      <name>Работник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Работник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7a30c5bf-6216-4b28-931c-762673d80c27">
+      <name>ОтработаноЧасов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отработано часов</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e54e29b5-8d55-4111-9769-3811b34f13be">
+      <name>Выполнено</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выполнено</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
